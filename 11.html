@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+    width: 100px;
+    height: 40px;
+    border: brown 1px solid;
+    }
+    .mncolor{
+        color: red;
+    }
+    .mnbgc{
+        background-color: darkred;
+    }
+</style>
+<body>
+    <div onmouseover="abc()">冰冰</div>
+    <div>美美</div>
+    <div deleted="undefine">芳芳</div>
+    <div>这件<a href="https://www.baidu.com/?tn=21002492_18_hao_p">实打实</a>是我买的</div>
+    <script>
+        var mn=document.querySelectorAll("div")
+        mn[1].style.fontSize="2rem";
+        mn[1].className="mncolor";
+        mn[1].className="mnbgc";
+        console.dir=(mn[1].tagName);
+        console.dir=(mn[3]);
+        // mn[3].innerHTML="双十一损失太大了";
+        console.dir(mn[3].getAttribute(mn[3].innerHTML));
+        function abc(){
+            mn[0].style.color="red"
+        }
+        mn[2].onclick = function bcd() {
+            this.style.fontSize="2.5 rem";
+        }
+    </script>
+</body>
+</html>

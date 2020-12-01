@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    a:hover{
+        color:#315efb;
+    }
+    span:hover{
+        color:#315efb;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 1488px;
+        height: 60px;
+        padding: 0 24px 0 24px;
+        background-color: blue;
+    }
+    .footster{
+  text-align: center;
+  width: 100%;
+  min-width: 1488px;
+  position: fixed;
+  z-index: 302;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  overflow: hidden;
+  zoom: 1;
+  margin: 0;
+  background-color: #fbfbfb;
+  text-align: left;
+  line-height: 40px;
+}
+.f_l{
+  float: left;
+}
+.f_r{
+    display: inline;
+    position: fixed;
+            right: 0px;
+            top: 655px;
+  /* float: right; */
+  color: #bbb;
+  font-size: 12px;
+  font-family: "PingFang SC",Arial,"Microsoft YaHei",sans-serif;
+}
+.color{
+  font-size: 12px;
+  text-decoration: none;
+  color: #9195a3;
+}
+.lld{
+  display: inline;
+  margin-right: 20px;
+  margin-left: 24px;
+}     
+.ll{
+  margin-left: 24px;
+  display: inline;
+  margin-right: -9px;}
+
+    div{
+        float: left;
+        margin: 19px 31px 0 0;
+        font: 13px/23px Arial,sans-serif;
+    }
+    span{
+        float: right;
+        margin-left: 32px;
+    margin-top: 19px;
+    position: relative;
+    vertical-align: top;
+    cursor: pointer;
+    font: 13px/23px Arial,sans-serif;
+    }
+    a{
+
+        text-decoration: none;
+        color: #222;
+    }
+    main{
+        width: 1535px;
+        height: 521px;
+        background-color: teal;
+    }
+    section{
+        width: 100%;
+        height: 149px;
+        background-color: violet;
+    }
+ 
+    nav,aside{
+        width: 250px;
+        height: 139px;
+     background-color: tomato;
+    }
+    article{
+        width: 778px;
+        height: 139px;
+        background-color: brown;
+        float: left;
+        margin-left: 10px;
+    }
+    nav{
+        float: left;
+    }
+    aside{
+        float: right;
+    }
+    img{
+        position: relative;
+        left: 355px;
+        /* top: 170px; */
+    }
+    /* input{ 
+        position: relative;
+        left: -50px;
+        width: 548px;
+        height: 30px;
+        
+    } */
+    .input{
+        border: 2px solid #c4c7ce; 
+        outline: 0;
+        position: relative;
+        left: 135px;
+        border-radius: 10px 0 0 10px ;
+            width:483px;
+            height:44px;
+            font-size:17px;
+    }
+    .submit{
+        background-color:#315efb;
+        outline: 0;
+        border-radius: 0 10px 10px 0;
+        position: relative;
+        left: 720px;
+        float: left ;
+            background-color:#315efb;
+            height:48px;
+            font-size:17px;
+            color:white;
+            border:0;
+            cursor: pointer;
+            width: 100px;
+        }
+        #cc{
+            /* position: fixed; */
+            /* background-color:#315efb; */
+        /* outline: 0;
+        border-radius: 10px 10px 10px 10px; */
+        width: 48px;
+        height: 24px;
+        margin: 18px 0 0 32px;
+        /* float: right; */
+    /* margin-top: 18px; */
+    /* margin-left: 32px; */
+    /* font-size: 13px; */
+    color: #fff !important;
+            background-color: #4e71f2;
+            height: 24px;
+            width: 48px;
+            line-height: 24px;
+            overflow: hidden;
+            font-family: inherit;
+            font-weight: 400;
+            text-align: center;
+            vertical-align: middle;
+            outline: 0;
+            border: 0;
+            border-radius: 6px;
+            padding: 0;
+        }
+        #dd{
+            margin-top: 28px;
+            background: #fff url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png) no-repeat;
+            background-position-x: 0%;
+            background-position-y: -48px;
+            width: 24px;
+            height: 20px;z-index: 1;
+            position:absolute;
+            right: 540px;
+            top: 195px;
+        }
+        /* .ss{ 
+            margin-left: 24px;
+  display: inline;
+  margin-right: -9px;
+            position: fixed;
+            right: 1000px;
+            top: 675px; */
+        }
+
+</style>
+<body>
+<header>
+   <div><a href="http://news.baidu.com/">新闻</a></div>
+   <div><a href="">hao123</a></div>
+   <div><a href="">地图</a></div>
+   <div><a href="">视频</a></div>
+   <div><a href="">贴吧</a></div>
+   <div><a href="">学术</a></div>
+   <div><a href="">更多</a></div>
+   <span id="cc"><a href="https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F">登录</a></span>
+   <span>设置</span>
+</header>
+<main>
+    <section>
+        <nav></nav>
+        <article>
+            <!-- <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1605417317492&di=f076a1fbbeb56ec1e0bda5dcca197d37&imgtype=0&src=http%3A%2F%2Fimage.333.sc.cn%2Fueditor%2Fphp%2Fupload%2Fimage%2F20170502%2F1493694867131565.jpg" width="300px " height="170px" alt=""> -->
+            <!-- <input type="text"> -->
+            <a href="https://www.baidu.com/" target="_blank" align:center>
+				<img src="https://www.baidu.com/img/bd_logo1.png" width="270px" height="129px" alt="Baidu" class="img">
+			</a>
+
+            <!-- <input type="submit" value="百度一下" class="submit" href="https://www.baidu.com/" > -->
+        </article>
+        <aside></aside>
+    </section>
+    <section>
+        <nav></nav>
+        <article>
+            <input type="text" class="input">
+            <div id="dd" ></div>
+            <input type="submit" value="百度一下" class="submit" a href="https://www.baidu.com/" >
+            <!-- <img id="dd" src="https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png" alt=""> -->
+        </article>
+        <aside></aside>
+    </section>
+</main>
+<div class="footster">
+    <div class="f_l">
+      <p class="ll">
+       <a class="color" href="#">设为首页</a>
+      </p>
+      <p class="ll">
+       <a class="color" href="#">关于X度</a>
+      </p>
+      <p class="ll">
+       <a class="color" href="#">About Chadu</a>
+      </p> 
+      <p class="ll">
+       <a class="color" href="#">X度营销</a>
+      </p> 
+      <p class="ll">
+       <a class="color" href="#">使用X度前必读</a>
+      </p> 
+      <p class="ll">
+       <a class="color" href="#">意见反馈</a>
+      </p> 
+      <p class="lld">
+       <a class="color" href="#">帮助中心</a>
+      </p>
+    </div>
+    <div class="f_r">
+      <span class="ll">©2020 Baidu</span>
+      <span class="ll">(京)-经营性-2017-0020</span>
+      <span class="ll">京公网安备11000002000001号</span>
+      <span class="lld">京ICP证030173号</span>
+      
+    </div>
+  </div>
+</body>
+</html>
